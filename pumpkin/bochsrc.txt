@@ -1,0 +1,20 @@
+# Bochs configuration file
+
+# Set the amount of RAM to emulate (in MB)
+megs: 32                        # Set memory to 32 MB
+
+# CPU configuration
+cpu: model=pentium              # Use Pentium CPU emulation
+
+# Boot configuration
+boot: cdrom                     # Boot from CD-ROM
+ata0-master: type=disk, path="/home/jan/Documents/Kernel_Projekt/pumpkin/build/os-image.iso", mode=flat  # Change to the correct ISO path
+
+# Enable the display using SDL
+# display_library: sdl            # Use SDL for graphics display
+# Uncomment the following line if you want to enable VESA video
+# vesa: enabled=1
+
+# Disk configuration
+# floppy0: type=fdd, path="path/to/your/floppy.img", status=inserted  # Optional, if you want to use a floppy image
+

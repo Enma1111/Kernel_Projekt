@@ -1,0 +1,24 @@
+# Compiler und Linker-Ausgaben
+*.bin
+*.o
+*.iso
+
+# Verzeichnisse
+isodir/
+build-*/
+
+# Temporäre Dateien
+*.tmp
+*.log
+*.bak
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+*.swp
+
+# Editor-spezifische Dateien
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
